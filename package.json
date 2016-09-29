@@ -1,5 +1,5 @@
 {
-  "name": "news-api",
+  "name": "news-api-njs",
   "version": "0.1.0",
   "description": "A Node app that hooks into newsapi.org",
   "main": "lib/index.js",
