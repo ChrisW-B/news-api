@@ -1,0 +1,27 @@
+{
+  "name": "news-api",
+  "version": "0.0.1",
+  "description": "A Node app that hooks into newsapi.org",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisW-B/news-api.git"
+  },
+  "keywords": [
+    "news",
+    "newsapi.org"
+  ],
+  "author": "Chris Barry <me@chrisb.xyz>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisW-B/news-api/issues"
+  },
+  "homepage": "https://github.com/ChrisW-B/news-api#readme",
+  "dependencies": {
+    "request": "^2.75.0",
+    "request-promise-native": "^1.0.3"
+  }
+}
