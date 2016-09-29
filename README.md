@@ -24,7 +24,7 @@ where
     opt = {
         source: source // required
         sortBy: top|latest|popular //optional, default is top
-        callback: callback
+        callback(res) {}
     }
 ```
 and callback is a function which receives a single object, containing the News API response and `success: true|false` 
@@ -36,7 +36,7 @@ Returns list of articles from a given source
     opt = {
         source: source // required
         sortBy: top|latest|popular //optional, default is top
-        callback: callback
+        callback(res) {}
     }
 ```
 and callback is a function which receives a single object, containing the News API response and `success: true|false` 

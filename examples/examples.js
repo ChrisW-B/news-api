@@ -9,7 +9,7 @@ news.getSources({
 	category: 'technology',
 	language: 'en',
 	country: 'us',
-	callback: function(res) {
+	callback(res) {
 		console.log(res);
 	}
 });
@@ -17,7 +17,7 @@ news.getSources({
 news.getArticles({
 	source: 'ars-technica',
 	sortBy: 'latest',
-	callback: function(res) {
+	callback(res) {
 		console.log(res);
 	}
 });
