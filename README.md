@@ -7,7 +7,7 @@ You can install using `npm install --save news-api-njs`
 
 Then you can set up like so, where username is a default username:
 ```js
-var NewsApi = require('../lib'),
+var NewsApi = require('news-api-njs'),
     config = require('./config');
 var news = new NewsApi({
     apiKey: config.apiKey
