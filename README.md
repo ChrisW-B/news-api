@@ -22,8 +22,8 @@ Returns all possible sources
 where
 ```js
     opt = {
-        source: source // required
-        sortBy: top|latest|popular //optional, default is top
+        category: category // optional
+        language: top|latest|popular //optional, default is top
         callback(res) {}
     }
 ```
@@ -34,9 +34,10 @@ Returns list of articles from a given source
 ### getArticles(opt);
 ```js
     opt = {
-        source: source // required
-        sortBy: top|latest|popular //optional, default is top
-        callback(res) {}
+        category: business|entertainment|gaming|general|music|science-and-nature|sport|technology //opt, default is all
+        language: en|de|fr //opt, default is all
+        country: au|de|gb|in|it|us //opt, default is all
+        callback: callback
     }
 ```
 and callback is a function which receives a single object, containing the News API response and `success: true|false` 
