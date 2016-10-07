@@ -1,6 +1,6 @@
 {
   "name": "news-api-njs",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A Node app that hooks into newsapi.org",
   "main": "lib/index.js",
   "scripts": {
