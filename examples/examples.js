@@ -1,9 +1,8 @@
-var NewsApi = require('../lib'),
+const NewsApi = require('../lib'),
 	config = require('./config');
-var news = new NewsApi({
+const news = new NewsApi({
 	apiKey: config.apiKey
 });
-
 
 news.getSources({
 	category: 'technology',
@@ -28,12 +27,8 @@ news.getArticles({
 	}
 });
 
-//You can also use promises!
-news.getSources({
-	category: 'technology',
-	language: 'en',
-	country: 'us'
-}).then(function(res) {
+// You can also use promises!
+news.getSources().then(function(res) {
 	console.log(res);
 }).catch(function(err) {
 	console.log(err);

@@ -4,7 +4,7 @@
   "description": "A Node app that hooks into newsapi.org",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,10 @@
   "dependencies": {
     "request": "^2.75.0",
     "request-promise-native": "^1.0.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2",
+    "nock": "^8.1.0"
   }
 }
